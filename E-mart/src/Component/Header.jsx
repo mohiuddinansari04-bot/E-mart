@@ -3,8 +3,8 @@ import { FaCartArrowDown } from "react-icons/fa";
 
 function Header() {
   return (
-   <nav className='bg-gray-800 text-white p-2 flex justify-between items-center'>
-    <div className='flex items-center space-x-2'>
+   <nav className='bg-gray-800 shadow-lg text-white p-2 flex justify-between items-center max-w-full mx-auto px-4 '>
+    <div className='flex items-center space-x-2 '>
       <FaCartArrowDown />
       <h1>E-Mart</h1>
     </div>

@@ -1,10 +1,14 @@
 import React from 'react'
+import { FaCartArrowDown } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className="bg-gray-800 text-white flex justify-between">
+    <header className="bg-gray-800 text-white flex justify-between ">
       <div className="text-3xl font-bold flex items-center">
-        <h1>E-Mart</h1>
+         <FaCartArrowDown className="mr-2" />
+        <h1 >E-Mart</h1>
+      
+
       </div>
       <nav>
         <ul>

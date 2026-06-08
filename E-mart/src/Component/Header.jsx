@@ -4,6 +4,7 @@ import { FaCartArrowDown } from "react-icons/fa";
 function Header() {
   return (
     <div className='max-w'>
+      <div>
    <nav className='bg-gray-800 shadow-lg text-white p-2 flex justify-between items-center '>
     <div className='flex items-center space-x-2 '>
       <FaCartArrowDown />
@@ -17,6 +18,7 @@ function Header() {
     </ul>
 
    </nav>
+   </div>
    </div>
     
    )

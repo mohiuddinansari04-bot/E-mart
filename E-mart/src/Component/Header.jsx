@@ -1,27 +1,19 @@
-import React from 'react'
+import React from "react";
 import { FaCartArrowDown } from "react-icons/fa";
 
 function Header() {
   return (
-    <div className='max-w'>
-      <div>
-   <nav className='bg-gray-800 shadow-lg text-white p-2 flex justify-between items-center '>
-    <div className='flex items-center space-x-2 '>
-      <FaCartArrowDown />
-      <h1>E-Mart</h1>
+   <nav className="bg-white shadow-lg p-4">
+    <div className="max-w-7xl max-auto flex justify-between items-center">
+      <div className="flex items-center space-x-2">
+        <FaCartArrowDown/>
+        <h1 className="text-xl font-bold">E-Mart</h1>
+      </div>
+
     </div>
-    <ul className='flex space-x-4'>
-      <li className='hover:text-gray-300'><a href="/">Home</a></li>
-      <li className='hover:text-gray-300'><a href="/products">Products</a></li>
-      <li className='hover:text-gray-300'><a href="/about">About</a></li>
-      <li className='hover:text-gray-300'><a href="/contact">Contact</a></li>
-    </ul>
 
    </nav>
-   </div>
-   </div>
-    
-   )
+  );
 }
 
 export default Header;

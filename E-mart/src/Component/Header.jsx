@@ -1,5 +1,7 @@
 import React from "react";
 import { FaCartArrowDown } from "react-icons/fa";
+import { RiShoppingCart2Line } from "react-icons/ri";
+
 
 function Header() {
   return (
@@ -10,7 +12,12 @@ function Header() {
         <FaCartArrowDown/>
         <h1 className="text-xl font-bold">E-Mart</h1>
       </div>
-      
+      <Div>
+      <RiShoppingCart2Line />
+      <button className="bg">
+        Cart
+      </button>
+      </Div>
 
     </div>
 

@@ -5,7 +5,7 @@ import { RiShoppingCart2Line } from "react-icons/ri";
 function Header() {
   return (
     <nav className="bg-white shadow-lg p-4">
-      <div className="max-w-9xl max-auto flex justify-between items-center md:flex-row sm:flex-col">
+      <div className="max-w-9xl max-auto flex justify-between items-center lg:flex-row md:flex-col sm:flex-col">
         <div className="flex items-center space-x-2">
           {" "}
           {/* Logo & heading */}

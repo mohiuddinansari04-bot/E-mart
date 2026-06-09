@@ -12,7 +12,7 @@ function Header() {
           <FaCartArrowDown />
           <h1 className="text-xl font-bold">E-Mart</h1>
         </div>
-        <ul className="">
+        <ul className="space-x-4  md:flex">
           <li><a href="#" className="text-bold hover:text-blue-500   ">Home</a></li>
          </ul>
 

@@ -13,7 +13,7 @@ function Header() {
           <h1 className="text-xl font-bold">E-Mart</h1>
         </div>
         <ul className="">
-          <li><a href="#" className="text-bold ">Home</a></li>
+          <li><a href="#" className="text-bold hover:text-blue-500   ">Home</a></li>
          </ul>
 
         <button className="flex items-center space-x-1 bg-blue-500 text-white px-4  py-2 rounded hover:bg-blue-600 transition duration-300">

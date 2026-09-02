@@ -1,0 +1,68 @@
+const products = [
+  {
+    id: 'prod-001',
+    title: 'Wireless Headphones',
+    category: 'Electronics',
+    price: 79.99,
+    description: 'Noise-cancelling comfort for your daily commute and home office.',
+    image: 'https://images.unsplash.com/photo-1518449647211-91314d8f4b24?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'prod-002',
+    title: 'Smart Watch',
+    category: 'Electronics',
+    price: 119.95,
+    description: 'Track your fitness, notifications, and sleep with one sleek device.',
+    image: 'https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'prod-003',
+    title: 'Running Shoes',
+    category: 'Fashion',
+    price: 64.9,
+    description: 'Lightweight performance shoes for everyday training and city runs.',
+    image: 'https://images.unsplash.com/photo-1528701800489-20cb3c1b6f80?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'prod-004',
+    title: 'Denim Jacket',
+    category: 'Fashion',
+    price: 54.5,
+    description: 'Classic denim with a comfortable stretch fit for every season.',
+    image: 'https://images.unsplash.com/photo-1463100099107-aa0980c362e6?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'prod-005',
+    title: 'Coffee Maker',
+    category: 'Home',
+    price: 39.99,
+    description: 'Brew rich coffee fast with a compact machine for your countertop.',
+    image: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'prod-006',
+    title: 'Yoga Mat',
+    category: 'Sports',
+    price: 24.95,
+    description: 'Eco-friendly mat with extra cushioning for studio and home practice.',
+    image: 'https://images.unsplash.com/photo-1546484959-f5ba5cdbcef4?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'prod-007',
+    title: 'Travel Backpack',
+    category: 'Travel',
+    price: 48.75,
+    description: 'Durable backpack with padded laptop pocket and smart organizer.',
+    image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'prod-008',
+    title: 'Water Bottle',
+    category: 'Sports',
+    price: 18.5,
+    description: 'Insulated bottle keeps drinks cold on long workouts and outdoor trips.',
+    image: 'https://images.unsplash.com/photo-1511447333013-8a9462eab70d?auto=format&fit=crop&w=800&q=80',
+  },
+]
+
+export default products

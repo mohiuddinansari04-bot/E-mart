@@ -19,7 +19,7 @@ function HomePage({
 }) {
   return (
     <section className="space-y-8">
-      <div className="rounded-3xl bg-gradient-to-r from-sky-500 to-indigo-600 p-8 text-white shadow-xl">
+      <div className="rounded-3xl bg-gradient text-white shadow-xl">
         <div className="max-w-5xl">
           <p className="text-sm uppercase tracking-[0.3em] opacity-90">Welcome to E-Mart</p>
           <h1 className="mt-4 text-4xl font-semibold sm:text-5xl">Shop top products in electronics, fashion, home, and sports.</h1>
